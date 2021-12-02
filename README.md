@@ -1,4 +1,3 @@
 # osdg
-
-https://share.streamlit.io/jyotin-007/osdg/main/app.py
+The problem we are solving is of multiclass text classification for UN sustainable development goals.The data set used is osdg-community dataset.Data is cleaned and trained on various classification models like logistic regression, multnomial naive bayes, SGDClassifier and fine tuned on deep learning models like bert-base-uncased and bert-large-uncased.Of all the tried models logistic regression gave higher accuracy with lesser time in classifying the documents. Here the application is deloyed in streamlit https://share.streamlit.io/jyotin-007/osdg/main/app.py and it gives the probabilty of each class and a linechart plotted on probabilites of the classes predicted
 
