@@ -56,5 +56,5 @@ with body:
                 st.header('Sdg Classification Results')
                 st.dataframe(result)
                 df = pd.DataFrame(result, columns = ["Probability"])
-                st.line_chart(df)            
+                st.area_chart(df)            
     
